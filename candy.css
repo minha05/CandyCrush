@@ -1,0 +1,61 @@
+body {
+    background: url("./background.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    color: white;
+    text-align: center;
+}
+
+/*Board Styling*/
+
+#board {
+    width: 450px;
+    height: 450px;
+    background-color: lightblue;
+    border: 5px solid slategrey;
+    border-radius: 15px;
+    margin: 0 auto;
+    display: flex;
+    flex-wrap: wrap; /*Candy pices will appear left to right*/
+}
+
+#board img{
+   width: 50px;
+   height: 50px;
+}
+
+/*Restart Button*/
+#top-bar{
+    display: flex;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+}
+
+#restart-button {
+    display: block;
+    margin: 30px auto;
+    padding: 12px 24px;
+    font-size: 1.2em;
+    font-weight: bold;
+    background-color: #ff5c5c;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease;
+}
+
+#restart-button:hover {
+    background-color: #ff1f1f;
+    transform: scale(1.05);
+}
+
+#restart-button:active {
+    background-color: #cc0000;
+    transform: scale(0.98);
+}
+
+
+
+
